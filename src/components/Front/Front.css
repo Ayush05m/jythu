@@ -123,19 +123,17 @@
     margin: 30px;
     cursor: pointer;
     font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
     /* border: 1px solid #000; */
 }
 
 .getStarted {
-    align-items: center;
-    display: flex;
-    justify-content: center;
+    transition: all 0.5s;
 }
 
 .watchVideo {
-    align-items: center;
-    display: flex;
-    justify-content: center;
     height: 60px;
     font-size: 1.2rem;
     /* margin-left: 20px; */

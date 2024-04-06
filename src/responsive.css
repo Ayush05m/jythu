@@ -1,7 +1,3 @@
-* {
-    box-sizing: border-box;
-}
-
 @media (max-width: 1380px) {
     .companyDescp {
         padding: 0;
@@ -129,8 +125,7 @@
 
     .about {
         flex-direction: column;
-        /* justify-content: center; */
-        /* align-items: center; */
+        padding-left: 40px;
     }
 
     .aboutItems {
@@ -193,6 +188,7 @@
     .descEnd {
         /* translate: -50px; */
         justify-content: center;
+        margin-top: 30px;
     }
 
     .getStarted .redirect p {
@@ -200,8 +196,13 @@
         width: 150px;
     }
 
-    .getStarted .redirect .btnCobver {
+    .getStarted:hover {
+        transform: translate(50px);
+    }
+
+    .getStarted:hover .redirectBtn {
         width: 151px;
+        margin-left: -150px;
     }
 
     .watchVideo {
@@ -232,9 +233,9 @@
     }
     
     .partnerLogos div {
-        /* scale: 0.8; */
+        display: flex;
+        justify-content: center;
         width: 170px;
-        /* border: 1px solid #000; */
     }
 
     .otherPages {
@@ -256,11 +257,41 @@
         left: 20%;
     }
 
+    .companyDescp {
+        margin: 0;
+    }
+
     .partners{
-        margin: 100px 50px;
+        margin: 100px 0px;
+    }
+
+    .partnerHeader {
+        flex-direction: column;
+        text-align: center;
     }
 
     .otherPages {
         margin-left: 0px;
+    }
+
+    .descEnd {
+        flex-direction: column;
+    }
+
+    .getStarted:hover {
+        transform: translate(20px);
+    }
+
+    .watchVideo {
+        width: 100%;
+        flex-direction: row-reverse;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 500px) {
+    .statistics {
+        scale: 0.8;
+        left: 10%;
     }
 }
