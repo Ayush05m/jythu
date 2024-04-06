@@ -7,7 +7,7 @@ function Card(...e) {
             <div className="rotateCover">
                 <div className="Card">
                     <div className="rotateResversal">
-                        <img src="/public/jythuLogo.png" className='cardElement' alt="" height={60} />
+                        <img src="/jythuLogo.png" className='cardElement' alt="" height={60} />
                         <h1 className='cardElement'>{e[0].tpc}</h1>
                         <p className='cardElement'>{e[0].desc}</p>
                         <div className="cardBtn cardElement">

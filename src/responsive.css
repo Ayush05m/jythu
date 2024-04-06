@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+}
+
+@media (max-width: 1380px) {
+    .companyDescp {
+        padding: 0;
+    }
+
+    .staticImg {
+        width: 40%;
+    }
+
+    .textDesc {
+        width: 90%;
+    }
+
+    .statistics {
+        /* scale: 80%; */
+        width: 350px;
+        /* left: 0; */
+    }
+
+    .circle {
+        width: 80px;
+        height: 80px;
+    }
+
+    .k5 {
+        font-size: 1.4rem;
+    }
+
+    .clientSatisfaction .text {
+        font-size: 1rem;
+    }
+
+    .font29 {
+        font-size: 3.5rem;
+    }
+
+    .navItems ul li {
+        padding: 10px 20px;
+    }
+
+    .partnerLogos {
+        flex-wrap: wrap;
+    }
+
+    .aboutContent {
+        padding-right: 0;
+    }
+}
+
+@media(max-width: 1200px) {
+    .statistics {
+        scale: 80%;
+        transform: translateY(-20px);
+        left: 0;
+        /* width: ; */
+    }
+
+    .companyDescp {
+        width: 60%;
+    }
+
+    .watchVideo {
+        margin: 30px 0;
+    }
+
+    .aboutImg {
+        scale: 1;
+    }
+
+    .info {
+        width: 100%;
+    }
+}
+
+@media(max-width: 1100px) {
+    .navItems ul li a {
+        font-size: 0.8rem;
+    }
+
+    .navItems ul li {
+        padding: 10px 20px;
+    }
+
+    .addIcon {
+        padding: 0;
+    }
+
+    .quote {
+        width: 115px;
+    }
+
+    .quotebtn {
+        font-size: 0.6rem;
+    }
+
+    .qoutesvg {
+        width: 116px;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    .navItems ul li {
+        padding: 10px 15px;
+    }
+
+    .font29 {
+        font-size: 2.5rem;
+    }
+
+    .font15 {
+        margin-top: 15px;
+    }
+
+    .descEnd {
+        /* scale: 0.7; */
+        width: 100%;
+        /* justify-content: space-between; */
+    }
+
+    .getStarted {
+        scale: 0.7;
+    }
+    .watchVideo {
+        scale: 0.7;
+    }
+}
+
+@media (max-width: 900px) {
+    .navItems {
+        position: absolute;
+        /* top: 0; */
+        display: block;
+        left: 0;
+    }
+
+    .nonLogo {
+        display: block;
+    }
+
+
+    .navItems ul {
+        display: block;
+    }
+
+    .descEnd {
+        /* translate: -20%; */
+    }
+}

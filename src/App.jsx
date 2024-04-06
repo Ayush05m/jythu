@@ -4,6 +4,7 @@ import Front from './components/Front/Front';
 import About from './components/About/About';
 import Services from './components/Services/Services';
 import './App.css';
+import './responsive.css';
 
 function App() {
 
