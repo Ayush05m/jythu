@@ -1,0 +1,107 @@
+.cardOvercover {
+    height: 450px;
+    width: 400px;
+}
+
+.rotateCover {
+    /* border: 1px solid #000; */
+    height: 100%;
+}
+
+.Card {
+    align-items: center;
+    border: 1px solid #dedddd;
+    background-color: #f9fefa;
+    background-image: url(/services/service_bg1.png), url(/services/service_bg2.png);
+    background-position: bottom left, top right;
+    background-size: 200px;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+    width: 100%;
+    z-index: -10;
+}
+
+.Card p {
+    text-align: center;
+}
+
+.rotateResversal {
+    /* rotate: 180deg; */
+    /* border: 1px solid #000; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
+    transition: all 0.5s;
+}
+
+.cardOvercover:hover .Card {
+    transform: rotateY(180deg);
+}
+
+.cardOvercover:hover .rotateCover {
+    transform: rotateY(-180deg);
+}
+
+.cardBtn {
+    /* border: 1px solid #000; */
+    align-items: center;
+    background-color: #f0f0f0;
+    border-radius: 50px;
+    box-shadow: -10px 0 1px #dedddd;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    position: relative;
+    transition: all 0.5s;
+    width: 80px;
+    z-index: 10;
+}
+
+/* .cardBtn::after {
+    content: '';
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+    background: linear-gradient(to left, #dedddd, 20%, #f0f0f0);
+    transform: translateX(-10px);
+    position: absolute;
+    z-index: -1;
+} */
+
+.cardBtn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, green, rgb(20, 244, 20));
+    border-radius: 50%;
+    transition: all 0.5s;
+    scale: 0;
+    z-index: 2;
+}
+
+.cardBtn:hover::before {
+    scale: 1;
+}
+
+.cardBtn:hover svg path {
+    fill: white;
+}
+
+.cardBtn svg {
+    width: 40px;
+    z-index: 9;
+    cursor: pointer;
+}

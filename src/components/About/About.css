@@ -1,0 +1,132 @@
+
+
+.about {
+    display: flex;
+    /* border: 1px solid #000; */
+    border-top: 1px solid #dedcdc8f;
+    padding: 100px 0;
+}
+
+.aboutItems {
+    width: 50%;
+    /* border: 1px solid #000; */
+}
+
+.aboutContent {
+    padding-right: 70px;
+}
+
+.aboutText {
+    font-size: 3.2rem;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 90%;
+}
+
+.aboutSubText {
+    /* border: 1px solid #000; */
+    color: #39677e;
+    font-size: 1.2rem;
+    margin: 30px 0;
+    width: 80%;
+    
+}
+
+.info {
+    /* border: 1px solid #000; */
+    display: flex;
+    width: 80%;
+}
+
+.infoItems {
+    /* border: 1px solid #000; */
+}
+
+.expirence {
+    width: 40%;
+    padding-right: 20px;
+}
+
+#f24 {
+    font-size: 5rem;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#yearExp {
+    font-size: 1.8rem;
+}
+
+.serviceList {
+    justify-self: center;
+    align-self: center;
+    padding-left: 30px;
+    width: 60%;
+    
+}
+
+.service {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.seriviceTick {
+    align-items: center;
+    background: #bfffda;
+    border-radius: 50%;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    height: 25px;
+    padding: 5px;
+    width: 25px;
+}
+
+.service p {
+    font-size: 1.2rem;
+    margin-left: 20px;
+}
+
+.aboutStarted {
+    /* border: 1px solid #000; */
+    display: flex;
+    transform: scale(0.7);
+    /* position: absolute; */
+    margin-left: -100px;
+    /* left: ; */
+}
+
+.aboutImg {
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scale: 1.2;
+}
+
+.abimage {
+    border: 1px solid #d2d2d2;
+    border-bottom-left-radius: 200px;
+    background: url('/best_service.png') center center no-repeat ;
+    background-size: cover;
+    height: 440px;
+    width: 400px;
+    /* overflow: hidden; */
+    position: relative;
+}
+
+.abimage::after {
+    content: '';
+    background: #bfffda;
+    border-bottom-left-radius: 200px;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    left: -30px;
+    margin-bottom: -20px;
+    position: absolute;
+    scale: 0.92;
+    transform: rotate(-1deg);
+    z-index: -1;
+}

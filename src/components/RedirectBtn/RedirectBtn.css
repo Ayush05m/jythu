@@ -1,0 +1,41 @@
+.redirect {
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+.redirect p {
+    align-items: center;
+    border: 2px solid #38EF7D;
+    border-radius: 30px;
+    display: flex;
+    font-size: 1.2rem;
+    justify-content: center;
+    /* padding: 0px 20px; */
+    height: 60px;
+    width: 200px;
+}
+
+.btnCover {
+    width: 60px;
+}
+
+.redirectBtn {
+    align-items: center;
+    /* border: 1px solid #000; */
+    border-radius: 50%;
+    background: linear-gradient(to left, #51fb92, 40%, #097f75);
+    display: flex;
+    justify-content: center;
+    margin-left: 2px;
+    height: 60px;
+    width: 60px;
+    transition: all 0.5s ease-in-out;
+}
+
+.redirect:hover .redirectBtn{
+    border-radius: 50px;
+    width: 200px;
+    margin-left: -200px;
+}

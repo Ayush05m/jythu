@@ -1,0 +1,38 @@
+
+
+.services {
+    /* border: 1px solid #000; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.serviceHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.serviceHeader h1 {
+    margin: 30px 0;
+    font-size: 3rem;
+}
+
+.serviceCards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: space-around;
+    /* border: 1px solid #000; */
+    margin-top: 50px;
+    width: 100%;
+}
+
+.serviceCards>div {
+    display: flex;
+    box-shadow: -10px 10px 10px #efefef;
+}
+
+.allServices {
+    margin-top: 100px;
+}
