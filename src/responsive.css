@@ -8,7 +8,7 @@
     }
 
     .staticImg {
-        width: 40%;
+        width: 50%;
     }
 
     .textDesc {
@@ -122,11 +122,23 @@
         /* justify-content: space-between; */
     }
 
-    .getStarted {
-        scale: 0.7;
+    .otherPages {
+        margin-left: 70px;
+        margin-right: 0;
     }
-    .watchVideo {
-        scale: 0.7;
+
+    .about {
+        flex-direction: column;
+        /* justify-content: center; */
+        /* align-items: center; */
+    }
+
+    .aboutItems {
+        width: 100%;
+    }
+
+    .aboutImg {
+        margin-top: 50px;
     }
 }
 
@@ -142,12 +154,113 @@
         display: block;
     }
 
-
     .navItems ul {
         display: block;
+        opacity: 0;
+    }
+
+    .frontPage {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .one {
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .staticImg {
+        width: 100%;
+    }
+
+    .statistics {
+        scale: 1.2;
+        left: 25%;
+    }
+
+    .companyDescp {
+        /* margin-top: 30px; */
+        width: auto;
+        margin: 50px;
+    }
+
+    .textDesc {
+        text-align: center;
     }
 
     .descEnd {
-        /* translate: -20%; */
+        /* translate: -50px; */
+        justify-content: center;
+    }
+
+    .getStarted .redirect p {
+        font-size: 0.8rem;
+        width: 150px;
+    }
+
+    .getStarted .redirect .btnCobver {
+        width: 151px;
+    }
+
+    .watchVideo {
+        /* translate: -80px; */
+        width: 50%;
+    }
+
+    .partners {
+        margin: 100px 70px;
+    }
+
+    .cardOvercover {
+        width: 350px;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .partnerHeader {
+        font-size: 2rem;
+        justify-content: center;
+    }
+    
+    .partnerLogos {
+        justify-content: space-around;
+        gap: 25px;
+        /* width: 200px; */
+    }
+    
+    .partnerLogos div {
+        /* scale: 0.8; */
+        width: 170px;
+        /* border: 1px solid #000; */
+    }
+
+    .otherPages {
+        margin: 0;
+    }
+
+    .aboutText {
+        font-size: 2.5rem;
+    }
+
+    .aboutSubText {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .statistics {
+        scale: 1;
+        left: 20%;
+    }
+
+    .partners{
+        margin: 100px 50px;
+    }
+
+    .otherPages {
+        margin-left: 0px;
     }
 }
